@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Devin Sterling
+    2022 - 07 - 26
+    Course Registration Waiting List
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListStudentsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Encompasses waiting students -->
+        <LinearLayout
+            android:id="@+id/students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="90dp"
+            android:divider="@drawable/small_divider"
+            android:showDividers="middle">
+
+            <TextView
+                style="@style/subtitle"
+                android:text="@string/waiting_list_info"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Add Student Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/hawk_red"
+        android:contentDescription="@string/add_student"
+        app:tint="@color/white"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

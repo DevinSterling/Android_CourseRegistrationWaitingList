@@ -1,0 +1,62 @@
+<!--
+    Devin Sterling
+    2022 - 07 - 26
+    Course Registration Waiting List
+-->
+<resources>
+    <string name="app_name">Course Registration Waiting List</string>
+    <string name="developer">Created by Devin Sterling</string>
+    <string name="version">Version %1$s</string>
+    <string name="action_settings">Settings</string>
+    <string name="vertical_dots">&#8942;</string>
+    <string name="db_error">Failed to interact with the database</string>
+
+    <!-- Validation -->
+    <string name="required">%1$s is required</string>
+    <string name="required_length">%1$s must be at least %2$d characters</string>
+    <string name="course_code_pattern">Course code is invalid, expected format: "[A\-Z]+-[0\-9]+"</string>
+    <string name="name_pattern">Name must only contain alphabetical characters</string>
+
+    <string name="full_name">%1$s %2$s</string>
+
+    <!-- Titles -->
+    <string name="available_courses">Available Courses</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="remove_course">Remove Course</string>
+    <string name="success_add_course">Course Added</string>
+    <string name="fail_add_course">Failed to Add Course</string>
+    <string name="success_remove_course">Course Removed</string>
+    <string name="fail_remove_course">Failed to Remove Course</string>
+    <string name="success_edit_course">Course Edited</string>
+    <string name="fail_edit_course">Failed to Edit Course</string>
+
+    <string name="available_students">Awaiting Students</string>
+    <string name="waiting_list_info">Students with higher grade levels are given higher priority/placed higher on the waiting list</string>
+    <string name="edit_student">Edit Student</string>
+    <string name="remove_student">Remove Student</string>
+    <string name="success_add_student">Student Added</string>
+    <string name="fail_add_student">Failed to Add Student</string>
+    <string name="success_remove_student">Student Removed</string>
+    <string name="fail_remove_student">Failed to Remove Student</string>
+    <string name="success_edit_student">Student Edited</string>
+    <string name="fail_edit_student">Failed to Edit Student</string>
+
+    <string name="add_course">Add Course</string>
+    <string name="course_code">Course Code</string>
+    <string name="course_name">Course Name</string>
+
+    <string name="add_student">Add Student</string>
+    <string name="add_student_desc">Students who are of higher grade level will be given higher priority and will appear higher a top the waiting list</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="view_student">View Student</string>
+
+    <string-array name="grade_levels">
+        <item>1ˢᵗ Year: Freshman</item>
+        <item>2ⁿᵈ Year: Sophomore</item>
+        <item>3ʳᵈ Year: Junior</item>
+        <item>4ᵗʰ Year: Senior</item>
+        <item>5ᵗʰ Year: Graduate</item>
+    </string-array>
+</resources>

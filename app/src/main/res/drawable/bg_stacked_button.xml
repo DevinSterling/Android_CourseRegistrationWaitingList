@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Devin Sterling
+    2022 - 07 - 26
+    Course Registration Waiting List
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding
+        android:left="10dp"
+        android:right="10dp"
+        android:top="5dp"
+        android:bottom="5dp"/>
+    <solid android:color="@null" />
+    <corners android:radius="5dp" />
+    <stroke
+        android:color="@color/light_grey"
+        android:width="1dp" />
+</shape>
